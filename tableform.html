@@ -82,24 +82,23 @@
 
 <h2>Tästä alkaa formi</h2>
 
-<form #formi action="https://hanska7.github.io/Teht10/action_page.php" method="get" id="formi">
-    <input>Nimi
+<form #formi action="https://www.w3schools.com/action_page.php" method="get" id="formi">
+    <input name="nimi1">Nimi
         </input><br>
-    <input>Toinen Nimi
+    <input name="nimi2">Toinen Nimi
         </input><br>
-    <input>Kolmas Nimi
+    <input name="nimi3">Kolmas Nimi
         </input><br>
-    <input>Neljäs nimi
+    <input name="nimi4">Neljäs nimi
         </input><br>
-    <input>Sähköpostiosoite
+    <input name="Sähköposti">Sähköpostiosoite
         </input><br>
     
 
-    Kirjoita tähän palaute<textarea rows='4' cols="80">
+    Kirjoita tähän palaute<textarea name="Palaute" rows='4' cols="80">
     </textarea><br>
 
     
-
     
     <label for="Lempipeli">Mikä näistä on paras peli?</label><br>
     <select name="Lempipeli" id="Lempipeli">
@@ -115,28 +114,24 @@
         <option value="Areena">Areena 5&8</option>
     </select><br>
     
-    Pysyitkö kärryillä sivun ohjeista?<input type="checkbox"><br>
+    Pysyitkö kärryillä sivun ohjeista?<input name="kärryillä" type="checkbox"><br>
 
+
+</form>
 
     <h2>Tähän vielä pakolliset tunnistetiedot, jotta saadaan vastaaja vastuuseen pelimaustaan</h2>
   
 
-    
-
-
-
-
-
-
 <h3>Tästä alkaa toinen formi</h3>
 
-<form #formi2 action="https://hanska7.github.io/Teht10/action_page.php" method="get" id="formi2">
+<form #formi2 action="https://www.w3schools.com/action_page.php" method="get" id="formi2">
     <label for="Tiedonantaja">Oma nimi</label>
     <input type="text" id="Tiedonantaja" name="Tiedonantaja" required><br><br>
     <label for="Sukunimi">Sukunimi</label>
     <input type="text" id="Sukunimi" name="Sukunimi" required><br><br>
     <label for="Sähköposti">Oma Sähköpostiosoite</label>
     <input type="text" id="Sähköposti" name="Sähköposti"required><br><br>
+
 </form>
 
 <p>Tästä palautetaan lomake</p>
